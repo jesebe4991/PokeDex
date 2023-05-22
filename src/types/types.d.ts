@@ -12,3 +12,10 @@ export type PokemonDetails = {
     attack: number;
     defense: number;
 };
+
+export type Article = {
+    title:string;
+    id: string;
+    thumbnail: string;
+    content: string[];
+}
